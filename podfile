@@ -1,0 +1,9 @@
+platform :ios, 12.0
+
+target 'RealmTutorial' do
+  use_frameworks!
+  pod 'RealmSwift'
+  target 'RealmTutorialTests' do
+    use_frameworks!
+  end
+end
